@@ -11,6 +11,7 @@
 		4AC6B7B52B8CE50D000FCAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6B7B42B8CE50D000FCAC8 /* ContentView.swift */; };
 		4AC6B7B72B8CE50E000FCAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6B7B62B8CE50E000FCAC8 /* Assets.xcassets */; };
 		4AC6B7BA2B8CE50E000FCAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6B7B92B8CE50E000FCAC8 /* Preview Assets.xcassets */; };
+		4AC6B7C12B8CE5FB000FCAC8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6B7C02B8CE5FB000FCAC8 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4AC6B7B42B8CE50D000FCAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AC6B7B62B8CE50E000FCAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AC6B7B92B8CE50E000FCAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AC6B7C02B8CE5FB000FCAC8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4AC6B7B22B8CE50D000FCAC8 /* Za_HunterApp.swift */,
 				4AC6B7B42B8CE50D000FCAC8 /* ContentView.swift */,
+				4AC6B7C02B8CE5FB000FCAC8 /* LocationManager.swift */,
 				4AC6B7B62B8CE50E000FCAC8 /* Assets.xcassets */,
 				4AC6B7B82B8CE50E000FCAC8 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				4AC6B7B52B8CE50D000FCAC8 /* ContentView.swift in Sources */,
 				4AC6B7B32B8CE50D000FCAC8 /* Za_HunterApp.swift in Sources */,
+				4AC6B7C12B8CE5FB000FCAC8 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,8 @@
 				DEVELOPMENT_TEAM = GX78VPAK2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Za-Hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,8 @@
 				DEVELOPMENT_TEAM = GX78VPAK2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Za-Hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
